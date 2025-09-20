@@ -64,3 +64,10 @@ Com as dependências instaladas, você pode iniciar o servidor de desenvolviment
 
 ```bash
 npm run dev
+```
+
+A aplicação estará disponível em http://localhost:5173 (ou em outra porta, caso a 5173 esteja em uso).
+
+## Conectando com o Backend
+
+O projeto está configurado para se comunicar com o backend hospedado no Render através de um proxy no Vite. Nenhuma configuração adicional é necessária para o desenvolvimento local.
